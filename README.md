@@ -2,6 +2,11 @@
 Un organizador de información de CDN
 Ejercicio del 25 de Febrero Sección Pruebalo Ya de vibecodingmexico.com
 
+https://vibecodingmexico.com/organizador-de-ias/ (25 febrero 2026)
+
+El ganador es Kimi si quieres algo funcional ya pero hayqueeditar los tipos de binds.
+Lee el Articulo, los demas fallaron.
+
 INICIO PROMPT
 
 Reto: Sistema de Respaldo de Prompts IA
