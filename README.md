@@ -20,19 +20,33 @@ BASE DE DATOS
 Una sola tabla llamada ai_backups con estos campos exactos:
 
 id             INT AUTO_INCREMENT PRIMARY KEY
+
 proyecto       VARCHAR(100)
+
 ia_utilizada   VARCHAR(50)       -- ChatGPT, Claude, Gemini, Grok, Cohere, otro
+
 tipo           VARCHAR(20)       -- prompt, imagen, idea, respuesta, codigo, otro
+
 contenido      LONGTEXT          -- texto plano, o base64 si tipo = 'imagen'
+
 nombre_archivo VARCHAR(150)
+
 num_version    DECIMAL(14,6)
+
 comentarios    LONGTEXT
+
 calificacion   DECIMAL(14,6)     -- nota propia del usuario (ej: 8.5)
+
 visible        VARCHAR(2)        -- 'SI' o 'NO' para ocultar de la vista general
+
 fecha          DATETIME
-contrasena_ver VARCHAR(255)      -- hash, vacío = sin contraseña individual
+
+contrasena_ver VARCHAR(255) NULL  -- hash, vacío = sin contraseña individual
+
 tamanio        DECIMAL(14,6)     -- tamaño en KB del contenido, calculado al guardar
+
 hash_md5       VARCHAR(32)       -- MD5 del contenido, calculado al guardar
+
 hash_sha1      VARCHAR(40)       -- SHA1 del contenido, calculado al guardar
 
 tamanio, hash_md5 y hash_sha1 se calculan automáticamente en PHP al guardar, nunca los escribe el usuario
