@@ -3,6 +3,9 @@
  * Sistema de Respaldo de Prompts IA
  * Archivo único: index.php
  * PHP 8.x Procedural - Sin frameworks
+
+ * El ganador es Kimi si quieres algo funcional ya pero había que editar los tipos de binds.
+ * Eso lo hice yo a mano en kimi2.php , no uses kimi.php no uses este archivo 
  * 
  * CREATE TABLE SQL:
  * 
