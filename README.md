@@ -4,7 +4,9 @@ Ejercicio del 25 de Febrero Sección Pruebalo Ya de vibecodingmexico.com
 
 https://vibecodingmexico.com/organizador-de-ias/ (25 febrero 2026)
 
-El ganador es Kimi si quieres algo funcional ya pero hayqueeditar los tipos de binds.
+El ganador es Kimi si quieres algo funcional ya pero había que editar los tipos de binds.
+Eso lo hice yo a mano en kimi2.php , no uses kimi.php
+
 Lee el Articulo, los demas fallaron.
 
 INICIO PROMPT
